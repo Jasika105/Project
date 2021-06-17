@@ -1,3 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+
+:root{
+  --green:#27ae60;
+  --black:#2c2c54;
+}
+
+*{
+  font-family: 'Nunito', sans-serif;
+  margin:0; padding:0;
+  box-sizing: border-box;
+  outline: none; border:none;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: all .2s linear;
+}
+
+*::selection{
+  background:var(--green);
+  color:#fff;
+}
+
+
 html{
   font-size: 62.5%;
   overflow-x: hidden;
@@ -112,7 +135,7 @@ section{
 
 .header-2 .navbar a:hover{
   background:var(--green);
-  color:#fff;
+  color:white;
 }
 
 .header-2 .icons a{
@@ -133,4 +156,76 @@ section{
   color:var(--black);
   cursor: pointer;
   display: none;
+}
+
+
+
+.home{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.home .image{
+  flex:1 1 40rem;
+  padding-top: 5rem;
+}
+
+.home .image img{
+  width:105%;
+}
+
+.home .content{
+  flex:1 1 40rem;
+}
+
+.home .content span{
+  
+  font-size: 3rem;
+  color:red;
+  
+}
+
+.home .content h3{
+  font-size: 4rem;
+  color:var(--green);;
+}
+.banner-container{
+  display: flex;
+  flex-wrap: wrap;
+  gap:1.5rem;
+}
+
+.banner-container .banner{
+  flex:1 1 40rem;
+  height: 25rem;
+  overflow: hidden;
+  position: relative;
+}
+
+.banner-container .banner img{
+  height: 100%;
+  width:100%;
+  object-fit: cover;
+}
+
+.banner-container .banner .content{
+  position: absolute;
+  top:50%; left: 4%;
+  transform: translateY(-50%);
+}
+
+.banner-container .banner .content h3{
+  font-size: 3rem;
+  color:green;
+}
+
+.banner-container .banner .content p{
+  font-size: 2rem;
+  color:red;
+}
+
+.banner-container .banner:hover img{
+  transform:scale(1.2) rotate(-5deg);
 }
