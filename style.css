@@ -218,14 +218,51 @@ section{
 
 .banner-container .banner .content h3{
   font-size: 3rem;
-  color:green;
+  color:var(--black);
 }
 
 .banner-container .banner .content p{
   font-size: 2rem;
-  color:red;
+  color:#666;
 }
 
 .banner-container .banner:hover img{
   transform:scale(1.2) rotate(-5deg);
+}
+
+
+
+.category .box-container{
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  padding-top: 1rem;
+}
+
+.category .box-container .box{
+  border:.1rem solid rgba(0,0,0,.3);
+  border-radius: .5rem;
+  text-align: center;
+  padding:2rem;
+  flex:1 1 25rem;
+}
+
+.category .box-container .box img{
+  width: 20rem;
+  margin:.5rem 0;
+}
+
+.category .box-container .box h3{
+  font-size: 3.5rem;
+  color:var(--black);
+}
+
+.category .box-container .box p{
+  font-size: 2rem;
+  color:#666;
+  padding:.5rem 0;
+}
+
+.category .box-container .box .btn{
+  display: block;
 }
