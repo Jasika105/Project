@@ -4,655 +4,770 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Grocery Store</title>
+    <title>Grocey store</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link href="style.css" type="text/css" rel="stylesheet">
 </head>
 <body>
 
-    <!-- header section starts  -->
+    <!-- header section -->
 
     <header>
 
         <div class="header-1">
-    
-            <a href="#" class="logo"><i class="fas fa-shopping-basket"></i> <b>Groco</b></a>
-    
-            <form action="" class="search-box-container">
+
+            <a href="#" class="logo"><i class="fas fa-shopping-basket"></i>Groco</a>
+
+            <form action="" class="search">
                 <input type="search" id="search-box" placeholder="search here...">
                 <label for="search-box" class="fas fa-search"></label>
             </form>
-    
-        </div>
-    
-        <div class="header-2">
-    
-            <div id="menu-bar" class="fas fa-bars"></div>
-    
-            <nav class="navbar">
-                <a href="#home"><b>Home</b></a>
-                
-                <a href="#category"><b>Category</b></a>
-                <a href="#product"><b>Product</b></a>
-                <a href="#deal"><b>Deal</b></a>
-                <a href="#about"><b>About</b></a>
-                <a href="#contact"><b>Contact</b></a>
-            </nav>
-    
-            <div class="icons">
 
-                <a href="#" class="fas fa-shopping-cart"></a>
+        </div>
+
+        <div class="header-2">
+
+            <div id="menu-bar" class="fas fa-bars"></div>
+
+            <nav class="navbar">
+                <a href="#home">Home</a>
+                <a href="#category">Category</a>
+                <a href="#product">Product</a>
+                <a href="#service">Service</a>
+                <a href="#contact">Contact</a>
+                <a href="order.php">Order</a>
+                <a href="login.php">Login</a>
+                <a href="signup.php">Signup</a>
+            </nav>
+
+            <div class="icons">
+                <a href="order.php" class="fas fa-shopping-cart"></a>
                 <a href="#" class="fas fa-heart"></a>
-                
-                <a href="registration.html" class="fas fa-user-circle"></a>
+                <a href="#" class="fas fa-user-circle"></a>
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <!-- home section -->
+    
+    <section class="home" id="home">
+
+        <div>
+            <img src="images/home_img.jpg" alt="Sorry image isn't found" height="500" width="700">
+        </div>
+
+        <div class="content">
+            <span>fresh and organic</span>
+            <h3>your daily need products</h3>
+            <a href="index.html" class="btn">Get started</a>
+        </div>
+
+    </section>
+
+
+    <!-- banner section -->
+
+    <section class="banner-container">
+
+        <div class="banner">
+
+            <img src="images/banner-1.jpg" alt="Sorry image isn't found">
+            
+            <div class="content"> 
+                <h3>special offer</h3>
+                <p>upto 40% off</p>
+                <a href="#product" class="btn">check out</a>
+            </div>
+
+        </div>
+
+        <div class="banner">
+
+            <img src="images/banner-2.jpg" alt="Sorry image isn't found">
+
+            <div class="content">
+                <h3>special offer</h3>
+                <p>upto 60% off</p>
+                <a href="#product" class="btn">check out</a>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- category section  -->
+
+    <section class="category" id="category">
+
+        <h1 class="heading">shop by <span>category</span></h1>
+    
+        <div class="box-container">
+    
+            <div class="box">
+                <h3>vegitables</h3>
+                <p>upto 50% off</p>
+                <img src="images/category-1.png" alt="Sorry image isn't found">
+                <a href="#product" class="btn">shop now</a>
+            </div>
+
+            <div class="box">
+                <h3>milk</h3>
+                <p>upto 44% off</p>
+                <img src="images/category-2.png" alt="Sorry image isn't found">
+                <a href="#product" class="btn">shop now</a>
+            </div>
+
+            <div class="box">
+                <h3>meat</h3>
+                <p>upto 35% off</p>
+                <img src="images/category-3.png" alt="Sorry image isn't found">
+                <a href="#product" class="btn">shop now</a>
+            </div>
+
+            <div class="box">
+                <h3>fruite</h3>
+                <p>upto 12% off</p>
+                <img src="images/category-4.png" alt="Sorry image isn't found">
+                <a href="#product" class="btn">shop now</a>
             </div>
     
         </div>
+
+        <div class="box-container">
     
-    </header>
+            <div class="box">
+                <h3>Rice</h3>
+                <p>upto 20% off</p>
+                <img src="images/category-5.jpg" alt="Sorry image isn't found" height="145">
+                <a href="#product" class="btn">shop now</a>
+            </div>
 
-    <!-- header section starts  -->
+            <div class="box">
+                <h3>bread</h3>
+                <p>upto 40% off</p>
+                <img src="images/category-6.jpg" alt="Sorry image isn't found" height="145">
+                <a href="#product" class="btn">shop now</a>
+            </div>
 
+            <div class="box">
+                <h3>Chocolates</h3>
+                <p>upto 5% off</p>
+                <img src="images/category-7.png" alt="Sorry image isn't found" height="145">
+                <a href="#product" class="btn">shop now</a>
+            </div>
 
-
-    <!--home section starts-->
-
-    <section class="home" id="home">
-
-        <div class="image">
-
-            <img src="images/home.jpg" alt="Sorry image isn't found" >
+            <div class="box">
+                <h3>Horlicks</h3>
+                <p>upto 10% off</p>
+                <img src="images/category-8.jpg" alt="Sorry image isn't found" height="145">
+                <a href="#product" class="btn">shop now</a>
+            </div>
+    
         </div>
+
+    </section>
+
     
-        <div class="content">
-            <span><b>Fresh And Organic Food</b></span>
-            <h3> check Out Your Daily Need Best Products</h3>
-            <a href="index.html" class="btn">Get started</a>
+    <!-- product section -->
+
+    <section class="product" id="product">
+
+        <h1 class="heading">latest <span>products</span></h1>
+    
+        <div class="box-container">
+    
+            <div class="box">
+                <span class="discount">-15%</span>
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <img src="images/product-1.png" alt="Sorry image is not found">
+                <h3>organic tomato</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price"> ৳ 127.5 <span> ৳ 150 </span> </div>
+                <div class="quantity">
+                    <span>quantity : </span>
+                    <input type="number" min="1" max="1000" value="1" id="p1">
+                    <span> /kg </span>
+                </div>
+                <a href="order.php" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <span class="discount">-5%</span>
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <img src="images/product-2.jpg" alt="Sorry image is not found">
+                <h3>Brocoli</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price"> ৳ 85.5 <span> ৳ 90</span> </div>
+                <div class="quantity">
+                    <span>quantity : </span>
+                    <input type="number" min="1" max="1000" value="1">
+                    <span> /kg </span>
+                </div>
+                <a href="order.php" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <span class="discount">-45%</span>
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <img src="images/product-3.jpg" alt="Sorry image is not found">
+                <h3>Diamond Aloo</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price"> ৳ 107.25 <span> ৳ 195 </span> </div>
+                <div class="quantity">
+                    <span>quantity : </span>
+                    <input type="number" min="1" max="1000" value="1">
+                    <span> /kg </span>
+                </div>
+                <a href="order.php" class="btn">add to cart</a>
+            </div>
+            
+            <div class="box">
+                <span class="discount">-13%</span>
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <img src="images/product-4.png" alt="Sorry image is not found">
+                <h3>natural milk</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price"> ৳ 261 <span> ৳ 300</span> </div>
+                <div class="quantity">
+                    <span>quantity : </span>
+                    <input type="number" min="1" max="1000" value="1">
+                    <span> /kg </span>
+                </div>
+                <a href="order.php" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <span class="discount">-25%</span>
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <img src="images/product-5.png" alt="Sorry image is not found">
+                <h3>Grape juice</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price"> ৳ 384 <span> ৳ 512 </span> </div>
+                <div class="quantity">
+                    <span>quantity : </span>
+                    <input type="number" min="1" max="1000" value="1">
+                    <span> /kg </span>
+                </div>
+                <a href="order.php" class="btn">add to cart</a>
+            </div>
+    
+            <div class="box">
+                <span class="discount">-10%</span>
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <img src="images/product-6.jpg" alt="Sorry image is not found">
+                <h3>Beef-meat</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price"> ৳ 855 <span> ৳ 950 </span> </div>
+                <div class="quantity">
+                    <span>quantity : </span>
+                    <input type="number" min="1" max="1000" value="1">
+                    <span> /kg </span>
+                </div>
+                <a href="order.php" class="btn">add to cart</a>
+            </div>
+
+
+            <div class="box">
+                <span class="discount">-52%</span>
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <img src="images/product-7.png" alt="Sorry image is not found">
+                <h3>organic orange</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price"> ৳ 134.4 <span> ৳ 280 </span> </div>
+                <div class="quantity">
+                    <span>quantity : </span>
+                    <input type="number" min="1" max="1000" value="1">
+                    <span> /kg </span>
+                </div>
+                <a href="order.php" class="btn">add to cart</a>
+            </div>
+
+    
+            <div class="box">
+                <span class="discount">-20%</span>
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <img src="images/product-8.jpg" alt="Sorry image is not found">
+                <h3>organic grapes</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price"> ৳ 160 <span> ৳ 200 </span> </div>
+                <div class="quantity">
+                    <span>quantity : </span>
+                    <input type="number" min="1" max="1000" value="1">
+                    <span> /kg </span>
+                </div>
+                <a href="order.php" class="btn">add to cart</a>
+            </div>
+    
+    
+            <div class="box">
+                <span class="discount">-55%</span>
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <img src="images/product-9.png" alt="Sorry image is not found">
+                <h3>organic apple</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price"> ৳ 112.5 <span> ৳ 250 </span> </div>
+                <div class="quantity">
+                    <span>quantity : </span>
+                    <input type="number" min="1" max="1000" value="1">
+                    <span> /kg </span>
+                </div>
+                <a href="order.php" class="btn">add to cart</a>
+            </div>
+
+            
+            <div class="box">
+                <span class="discount">-29%</span>
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <img src="images/product-10.png" alt="Sorry image is not found">
+                <h3>natural almonts</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price"> ৳ 49.7 <span> ৳ 70 </span> </div>
+                <div class="quantity">
+                    <span>quantity : </span>
+                    <input type="number" min="1" max="1000" value="1">
+                    <span> /kg </span>
+                </div>
+                <a href="order.php" class="btn">add to cart</a>
+            </div>
+    
+            <div class="box">
+                <span class="discount">-10%</span>
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <img src="images/product-11.png" alt="Sorry image is not found">
+                <h3>natural butter</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price"> ৳ 211.5 <span> 235 </span> </div>
+                <div class="quantity">
+                    <span>quantity : </span>
+                    <input type="number" min="1" max="1000" value="1">
+                    <span> /kg </span>
+                </div>
+                <a href="order.php" class="btn">add to cart</a>
+            </div>
+    
+            <div class="box">
+                <span class="discount">-40%</span>
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <img src="images/product-12.png" alt="Sorry image is not found">
+                <h3>organic carrot</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price"> ৳ 51 <span> ৳ 85 </span> </div>
+                <div class="quantity">
+                    <span>quantity : </span>
+                    <input type="number" min="1" max="1000" value="1">
+                    <span> /kg </span>
+                </div>
+                <a href="order.php" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <span class="discount">-22%</span>
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <img src="images/product-13.jpg" alt="Sorry image is not found">
+                <h3>Rice</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price"> ৳ 104.52 <span> ৳ 134 </span> </div>
+                <div class="quantity">
+                    <span>quantity : </span>
+                    <input type="number" min="1" max="1000" value="1">
+                    <span> /kg </span>
+                </div>
+                <a href="order.php" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <span class="discount">20%</span>
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <img src="images/product-14.jpg" alt="Sorry image is not found">
+                <h3>Cooking Oil</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price"> ৳ 480 <span> ৳ 600 </span> </div>
+                <div class="quantity">
+                    <span>quantity : </span>
+                    <input type="number" min="1" max="1000" value="1">
+                    <span> /kg </span>
+                </div>
+                <a href="order.php" class="btn">add to cart</a>
+            </div>
+    
+
+            <div class="box">
+                <span class="discount">-10%</span>
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <img src="images/product-15.jpg" alt="Sorry image is not found">
+                <h3>Bread</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price"> ৳ 58.5 <span> ৳ 65 </span> </div>
+                <div class="quantity">
+                    <span>quantity : </span>
+                    <input type="number" min="1" max="1000" value="1">
+                    <span> /kg </span>
+                </div>
+                <a href="order.php" class="btn">add to cart</a>
+            </div>
+    
+
+            <div class="box">
+                <span class="discount">-18%</span>
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <img src="images/product-16.jpg" alt="Sorry image is not found">
+                <h3>Nimki Biscuts</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price"> ৳ 59.45 <span> ৳ 72.5 </span> </div>
+                <div class="quantity">
+                    <span>quantity : </span>
+                    <input type="number" min="1" max="1000" value="1">
+                    <span> /kg </span>
+                </div>
+                <a href="order.php" class="btn">add to cart</a>
+            </div>
+
+            
+            <div class="box">
+                <span class="discount">-40%</span>
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <img src="images/product-17.jpg" alt="Sorry image is not found">
+                <h3>Nestle Kit Kat Chocolate</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price"> ৳ 30 <span> ৳ 50 </span> </div>
+                <div class="quantity">
+                    <span>quantity : </span>
+                    <input type="number" min="1" max="1000" value="1">
+                    <span> /kg </span>
+                </div>
+                <a href="order.php" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <span class="discount">-35%</span>
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <img src="images/product-18.PNG" alt="Sorry image is not found">
+                <h3>Chips Alooz</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price"> ৳ 21.45 <span> $33 </span> </div>
+                <div class="quantity">
+                    <span>quantity : </span>
+                    <input type="number" min="1" max="1000" value="1">
+                    <span> /kg </span>
+                </div>
+                <a href="order.php" class="btn">add to cart</a>
+            </div>
+
+        </div>
+
+    </section>
+
+
+   <!-- service section -->
+
+    <section class="service" id="service">
+       
+        <h1 class="heading"> our <span>services</span></h1>
+    
+        <div class="box-container">
+    
+            <div class="box">
+                <i class="fas fa-apple-alt"></i>
+                <h3>organic food</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam excepturi voluptatem eos nulla iure dolorem porro expedita deserunt at ea.</p>
+            </div>
+    
+            <div class="box">
+                <i class="fas fa-award"></i>
+                <h3>high quality</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam excepturi voluptatem eos nulla iure dolorem porro expedita deserunt at ea.</p>
+            </div>
+    
+            <div class="box">
+                <i class="fas fa-shipping-fast"></i>
+                <h3>fast delivery</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam excepturi voluptatem eos nulla iure dolorem porro expedita deserunt at ea.</p>
+            </div>
+    
+            <div class="box">
+                <i class="fas fa-undo"></i>
+                <h3>easy returns</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam excepturi voluptatem eos nulla iure dolorem porro expedita deserunt at ea.</p>
+            </div>
+    
+            <div class="box">
+                <i class="fas fa-truck"></i>
+                <h3>free delivery</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam excepturi voluptatem eos nulla iure dolorem porro expedita deserunt at ea.</p>
+            </div>
+    
+            <div class="box">
+                <i class="fas fa-headset"></i>
+                <h3>24 x 7 support</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam excepturi voluptatem eos nulla iure dolorem porro expedita deserunt at ea.</p>
+            </div>
+            
         </div>
     
     </section>
+
+
+    <!-- contact section -->
+
+    <section class="contact" id="contact">
+
+        <h1 class="heading"> <span>contact</span> us </h1>
     
-    <!-- home section ends -->
-
-
-<!-- banner section starts  -->
-
-<section class="banner-container">
-
-    <div class="banner">
-        <img src="images/banner1.jpg" alt="Sorry image isn't found">
-        <div class="content">
-            <h3><b>Special Offer</b></h3>
-            <p> <b>upto 40% off</b> </p>
-            <a href="#" class="btn">check out</a>
-        </div>
-    </div>
-
-    <div class="banner">
-        <img src="images/banner2.jpg" alt="Sorry image isn't found">
-        <div class="content">
-            <h3><b>Limited Offer</b></h3>
-            <p><b>Upto 60% off</b> </p>
-            <a href="#" class="btn">check out</a>
-        </div>
-    </div>
-
-</section>
-
-<!-- banner section ends -->
-
-
-<!-- category section starts  -->
-
-
-<section class="category" id="category">
-
-    <h1 class="heading">shop by <span>category</span></h1>
-
-    <div class="box-container">
-
-        <div class="box">
-            <h3>Rice</h3>
-            <p><b>upto 50% off</b></p>
-            <img src="images/category-1.jpg" alt="Sorry image isn't found"height="145">
-            <a href="#" class="btn">shop now</a>
-        </div>
-        <div class="box">
-            <h3>Vagetables</h3>
-            <p><b>upto 45% off</b></p>
-            <img src="images/category-2.png" alt="Sorry image isn't found">
-            <a href="#" class="btn">shop now</a>
-        </div>
-        <div class="box">
-            <h3>Meat</h3>
-            <p><b>upto 40% off</b></p>
-            <img src="images/category-3.png" alt="Sorry image isn't found">
-            <a href="#" class="btn">shop now</a>
-        </div>
-        <div class="box">
-            <h3>fruite</h3>
-            <p><b>upto 30% off</b></p>
-            <img src="images/category-4.png" alt="Sorry image isn't found">
-            <a href="#" class="btn">shop now</a>
-        </div>
-        <div class="box">
-            <h3>Milk&Egg</h3>
-            <p><b>upto 25% off</b></p>
-            <img src="images/category-5.png" alt="Sorry image isn't found">
-            <a href="#" class="btn">shop now</a>
-        </div>
-        <div class="box">
-            <h3>Biscuts&Bread</h3>
-            <p><b>upto 10% off</b></p>
-            <img src="images/category-6.jpg" alt="Sorry image isn't found"height="145">
-            <a href="#" class="btn">shop now</a>
-        </div>
-        <div class="box">
-            <h3>Chocolates</h3>
-            <p><b>upto 15% off</b></p>
-            <img src="images/category-7.png" alt="Sorry image isn't found" height="145">
-            <a href="#" class="btn">shop now</a>
-        </div>
-        <div class="box">
-            <h3>HealthDrinks</h3>
-            <p><b>upto 30% off</b></p>
-            <img src="images/category-8.jpg" alt="Sorry image isn't found"height="145">
-            <a href="#" class="btn">shop now</a>
-        </div>
-        </div>
-        </section>
-
-</section>
-
-<!-- category section ends -->
-
-
-<!-- product section starts  -->
-
-
-<section class="product" id="product">
-
-    <h1 class="heading">latest <span>products</span></h1>
-
-    <div class="box-container">
-
-        <div class="box">
-            <span class="discount">-15%</span>
-            <div class="icons">
-                <a href="#" class="fas fa-heart"></a>
-                <a href="#" class="fas fa-share"></a>
-                <a href="#" class="fas fa-eye"></a>
+        <form action="">
+    
+            <div class="inputBox">
+                <input type="text" placeholder="name">
+                <input type="email" placeholder="email">
             </div>
-            <img src="images/product-1.png" alt="">
-            <h3>organic tomato</h3>
-            <div class="stars">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star-half-alt"></i>
+    
+            <div class="inputBox">
+                <input type="number" placeholder="number">
+                <input type="text" placeholder="subject">
             </div>
-            <div class="price"> ৳ 127.5 <span> ৳ 150 </span> </div>
-            <div class="quantity">
-                <span>quantity : </span>
-                <input type="number" min="1" max="1000" value="1">
-                <span> /kg </span>
+    
+            <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+    
+            <input type="submit" value="send message" class="btn">
+    
+        </form>
+    
+    </section> <br><br><br>
+
+
+    <!-- footer section -->
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <a href="#" class="logo"><i class="fas fa-shopping-basket"></i>groco</a>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam culpa sit enim nesciunt rerum laborum illum quam error ut alias!</p>
+                <div class="share">
+                    <a href="#" class="btn fab fa-facebook-f"></a>
+                    <a href="#" class="btn fab fa-instagram"></a>
+                    <a href="#" class="btn fab fa-linkedin"></a>
+                </div>
             </div>
-            <a href="#" class="btn">add to cart</a>
+            
+            <div class="box">
+                <h3>our location</h3>
+                <div class="links">
+                    <a href="#">Habiganj</a>
+                    <a href="#">Sylhet</a>
+                    <a href="#">Dhaka</a>
+                    <a href="#">Comilla</a>
+                    <a href="#">Chittagong</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <h3>quick links</h3>
+                <div class="links">
+                    <a href="#">home</a>
+                    <a href="#">category</a>
+                    <a href="#">product</a>
+                    <a href="#">Service</a>
+                    <a href="#">contact</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <h3>download app</h3>
+                <div class="links">
+                    <a href="#">google play</a>
+                    <a href="#">app store</a>
+                </div>
+            </div>
         </div>
 
-        <div class="box">
-            <span class="discount">-5%</span>
-            <div class="icons">
-                <a href="#" class="fas fa-heart"></a>
-                <a href="#" class="fas fa-share"></a>
-                <a href="#" class="fas fa-eye"></a>
-            </div>
-            <img src="images/product-2.jpg" alt="">
-            <h3>Broccoli</h3>
-            <div class="stars">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star-half-alt"></i>
-            </div>
-            <div class="price"> ৳ 85.5 <span> ৳ 90</span> </div>
-            <div class="quantity">
-                <span>quantity : </span>
-                <input type="number" min="1" max="1000" value="1">
-                <span> /kg </span>
-            </div>
-            <a href="#" class="btn">add to cart</a>
-        </div>
-
-        <div class="box">
-            <span class="discount">-45%</span>
-            <div class="icons">
-                <a href="#" class="fas fa-heart"></a>
-                <a href="#" class="fas fa-share"></a>
-                <a href="#" class="fas fa-eye"></a>
-            </div>
-            <img src="images/product-3.jpg" alt="">
-            <h3>Diamond Aloo</h3>
-            <div class="stars">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star-half-alt"></i>
-            </div>
-            <div class="price"> ৳ 107.25 <span> ৳ 195 </span> </div>
-            <div class="quantity">
-                <span>quantity : </span>
-                <input type="number" min="1" max="1000" value="1">
-                <span> /kg </span>
-            </div>
-            <a href="#" class="btn">add to cart</a>
-        </div>
-        
-        <div class="box">
-            <span class="discount">-13%</span>
-            <div class="icons">
-                <a href="#" class="fas fa-heart"></a>
-                <a href="#" class="fas fa-share"></a>
-                <a href="#" class="fas fa-eye"></a>
-            </div>
-            <img src="images/product-4.png" alt="">
-            <h3>natural milk</h3>
-            <div class="stars">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star-half-alt"></i>
-            </div>
-            <div class="price"> ৳ 261 <span> ৳ 300</span> </div>
-            <div class="quantity">
-                <span>quantity : </span>
-                <input type="number" min="1" max="1000" value="1">
-                <span> /kg </span>
-            </div>
-            <a href="#" class="btn">add to cart</a>
-        </div>
-
-        <div class="box">
-            <span class="discount">-25%</span>
-            <div class="icons">
-                <a href="#" class="fas fa-heart"></a>
-                <a href="#" class="fas fa-share"></a>
-                <a href="#" class="fas fa-eye"></a>
-            </div>
-            <img src="images/product-5.png" alt="">
-            <h3>Grape juice</h3>
-            <div class="stars">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star-half-alt"></i>
-            </div>
-            <div class="price"> ৳ 384 <span> ৳ 512 </span> </div>
-            <div class="quantity">
-                <span>quantity : </span>
-                <input type="number" min="1" max="1000" value="1">
-                <span> /kg </span>
-            </div>
-            <a href="#" class="btn">add to cart</a>
-        </div>
-
-        <div class="box">
-            <span class="discount">-10%</span>
-            <div class="icons">
-                <a href="#" class="fas fa-heart"></a>
-                <a href="#" class="fas fa-share"></a>
-                <a href="#" class="fas fa-eye"></a>
-            </div>
-            <img src="images/product-6.jpg" alt="">
-            <h3>Beef-meat</h3>
-            <div class="stars">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star-half-alt"></i>
-            </div>
-            <div class="price"> ৳ 855 <span> ৳ 950 </span> </div>
-            <div class="quantity">
-                <span>quantity : </span>
-                <input type="number" min="1" max="1000" value="1">
-                <span> /kg </span>
-            </div>
-            <a href="#" class="btn">add to cart</a>
-        </div>
-
-
-        <div class="box">
-            <span class="discount">-52%</span>
-            <div class="icons">
-                <a href="#" class="fas fa-heart"></a>
-                <a href="#" class="fas fa-share"></a>
-                <a href="#" class="fas fa-eye"></a>
-            </div>
-            <img src="images/product-7.png" alt="">
-            <h3>organic orange</h3>
-            <div class="stars">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star-half-alt"></i>
-            </div>
-            <div class="price"> ৳ 134.4 <span> ৳ 280 </span> </div>
-            <div class="quantity">
-                <span>quantity : </span>
-                <input type="number" min="1" max="1000" value="1">
-                <span> /kg </span>
-            </div>
-            <a href="#" class="btn">add to cart</a>
-        </div>
-
-
-        <div class="box">
-            <span class="discount">-20%</span>
-            <div class="icons">
-                <a href="#" class="fas fa-heart"></a>
-                <a href="#" class="fas fa-share"></a>
-                <a href="#" class="fas fa-eye"></a>
-            </div>
-            <img src="images/product-8.jpg" alt="">
-            <h3>organic grapes</h3>
-            <div class="stars">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star-half-alt"></i>
-            </div>
-            <div class="price"> ৳ 160 <span> ৳ 200 </span> </div>
-            <div class="quantity">
-                <span>quantity : </span>
-                <input type="number" min="1" max="1000" value="1">
-                <span> /kg </span>
-            </div>
-            <a href="#" class="btn">add to cart</a>
-        </div>
-
-
-        <div class="box">
-            <span class="discount">-55%</span>
-            <div class="icons">
-                <a href="#" class="fas fa-heart"></a>
-                <a href="#" class="fas fa-share"></a>
-                <a href="#" class="fas fa-eye"></a>
-            </div>
-            <img src="images/product-9.png" alt="">
-            <h3>organic apple</h3>
-            <div class="stars">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star-half-alt"></i>
-            </div>
-            <div class="price"> ৳ 112.5 <span> ৳ 250 </span> </div>
-            <div class="quantity">
-                <span>quantity : </span>
-                <input type="number" min="1" max="1000" value="1">
-                <span> /kg </span>
-            </div>
-            <a href="#" class="btn">add to cart</a>
-        </div>
-
-        
-        <div class="box">
-            <span class="discount">-29%</span>
-            <div class="icons">
-                <a href="#" class="fas fa-heart"></a>
-                <a href="#" class="fas fa-share"></a>
-                <a href="#" class="fas fa-eye"></a>
-            </div>
-            <img src="images/product-10.png" alt="">
-            <h3>natural almonts</h3>
-            <div class="stars">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star-half-alt"></i>
-            </div>
-            <div class="price"> ৳ 49.7 <span> ৳ 70 </span> </div>
-            <div class="quantity">
-                <span>quantity : </span>
-                <input type="number" min="1" max="1000" value="1">
-                <span> /kg </span>
-            </div>
-            <a href="#" class="btn">add to cart</a>
-        </div>
-
-        <div class="box">
-            <span class="discount">-10%</span>
-            <div class="icons">
-                <a href="#" class="fas fa-heart"></a>
-                <a href="#" class="fas fa-share"></a>
-                <a href="#" class="fas fa-eye"></a>
-            </div>
-            <img src="images/product-11.png" alt="">
-            <h3>natural butter</h3>
-            <div class="stars">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star-half-alt"></i>
-            </div>
-            <div class="price"> ৳ 211.5 <span> 235 </span> </div>
-            <div class="quantity">
-                <span>quantity : </span>
-                <input type="number" min="1" max="1000" value="1">
-                <span> /kg </span>
-            </div>
-            <a href="#" class="btn">add to cart</a>
-        </div>
-
-        <div class="box">
-            <span class="discount">-40%</span>
-            <div class="icons">
-                <a href="#" class="fas fa-heart"></a>
-                <a href="#" class="fas fa-share"></a>
-                <a href="#" class="fas fa-eye"></a>
-            </div>
-            <img src="images/product-12.png" alt="">
-            <h3>organic carrot</h3>
-            <div class="stars">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star-half-alt"></i>
-            </div>
-            <div class="price"> ৳ 51 <span> ৳ 85 </span> </div>
-            <div class="quantity">
-                <span>quantity : </span>
-                <input type="number" min="1" max="1000" value="1">
-                <span> /kg </span>
-            </div>
-            <a href="#" class="btn">add to cart</a>
-        </div>
-
-        <div class="box">
-            <span class="discount">-22%</span>
-            <div class="icons">
-                <a href="#" class="fas fa-heart"></a>
-                <a href="#" class="fas fa-share"></a>
-                <a href="#" class="fas fa-eye"></a>
-            </div>
-            <img src="images/product-13.jpg" alt="">
-            <h3>Rice</h3>
-            <div class="stars">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star-half-alt"></i>
-            </div>
-            <div class="price"> ৳ 104.52 <span> ৳ 134 </span> </div>
-            <div class="quantity">
-                <span>quantity : </span>
-                <input type="number" min="1" max="1000" value="1">
-                <span> /kg </span>
-            </div>
-            <a href="#" class="btn">add to cart</a>
-        </div>
-
-        <div class="box">
-            <span class="discount">20%</span>
-            <div class="icons">
-                <a href="#" class="fas fa-heart"></a>
-                <a href="#" class="fas fa-share"></a>
-                <a href="#" class="fas fa-eye"></a>
-            </div>
-            <img src="images/product-14.jpg" alt="">
-            <h3>Cooking Oil</h3>
-            <div class="stars">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star-half-alt"></i>
-            </div>
-            <div class="price"> ৳ 480 <span> ৳ 600 </span> </div>
-            <div class="quantity">
-                <span>quantity : </span>
-                <input type="number" min="1" max="1000" value="1">
-                <span> /kg </span>
-            </div>
-            <a href="#" class="btn">add to cart</a>
-        </div>
-
-
-        <div class="box">
-            <span class="discount">-10%</span>
-            <div class="icons">
-                <a href="#" class="fas fa-heart"></a>
-                <a href="#" class="fas fa-share"></a>
-                <a href="#" class="fas fa-eye"></a>
-            </div>
-            <img src="images/product-15.jpg" alt="">
-            <h3>Bread</h3>
-            <div class="stars">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star-half-alt"></i>
-            </div>
-            <div class="price"> ৳ 58.5 <span> ৳ 65 </span> </div>
-            <div class="quantity">
-                <span>quantity : </span>
-                <input type="number" min="1" max="1000" value="1">
-                <span> /kg </span>
-            </div>
-            <a href="#" class="btn">add to cart</a>
-        </div>
-
-
-        <div class="box">
-            <span class="discount">-18%</span>
-            <div class="icons">
-                <a href="#" class="fas fa-heart"></a>
-                <a href="#" class="fas fa-share"></a>
-                <a href="#" class="fas fa-eye"></a>
-            </div>
-            <img src="images/product-16.jpg" alt="">
-            <h3>Nimki Biscuts</h3>
-            <div class="stars">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star-half-alt"></i>
-            </div>
-            <div class="price"> ৳ 59.45 <span> ৳ 72.5 </span> </div>
-            <div class="quantity">
-                <span>quantity : </span>
-                <input type="number" min="1" max="1000" value="1">
-                <span> /kg </span>
-            </div>
-            <a href="#" class="btn">add to cart</a>
-        </div>
-
-        
-        <div class="box">
-            <span class="discount">-40%</span>
-            <div class="icons">
-                <a href="#" class="fas fa-heart"></a>
-                <a href="#" class="fas fa-share"></a>
-                <a href="#" class="fas fa-eye"></a>
-            </div>
-            <img src="images/product-17.jpg" alt="">
-            <h3>Nestle Kit Kat Chocolate</h3>
-            <div class="stars">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star-half-alt"></i>
-            </div>
-            <div class="price"> ৳ 30 <span> ৳ 50 </span> </div>
-            <div class="quantity">
-                <span>quantity : </span>
-                <input type="number" min="1" max="1000" value="1">
-                <span> /kg </span>
-            </div>
-            <a href="#" class="btn">add to cart</a>
-        </div>
-
-        <div class="box">
-            <span class="discount">-35%</span>
-            <div class="icons">
-                <a href="#" class="fas fa-heart"></a>
-                <a href="#" class="fas fa-share"></a>
-                <a href="#" class="fas fa-eye"></a>
-            </div>
-            <img src="images/product-18.png" alt="">
-            <h3>Chips Alooz</h3>
-            <div class="stars">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star-half-alt"></i>
-            </div>
-            <div class="price"> ৳ 21.45 <span> $33 </span> </div>
-            <div class="quantity">
-                <span>quantity : </span>
-                <input type="number" min="1" max="1000" value="1">
-                <span> /kg </span>
-            </div>
-            <a href="#" class="btn">add to cart</a>
-        </div>
-
-    </div>
-
-</section>
-
-<!-- product section end-->
-
+    </section>
 
     <script type="text/javascript" src="custom.js"></script>
+    
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-   
