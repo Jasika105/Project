@@ -31,6 +31,11 @@
             text-transform: capitalize;
             transition: all .2s linear;
         }
+        
+        *::selection{
+            background:var(--green);
+            color:#fff;
+        }
 
         html{
             font-size: 68.5%;
